@@ -1,1 +1,1 @@
-# counter
+# SimpleCounter is my first HTML, CSS and Javascript interactive website. It's all from a tutoiral but i have learned much about variables, functions, strings and how to store data! Feel free to use this and further improve if you want to! :D
