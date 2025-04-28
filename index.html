@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>People Entered:</h1>
+    <h1>🧭 Counter</h1>
     <h2 id="count">0</h2>
-    <button id="increment-btn" onclick="increment()">Increment</button>
-    <button id="save-btn" onclick="save()">Save</button>
-    <button id="reset-btn" onclick="reset()">Reset</button>
-    <p id="save-el">Previous Entires: </p>
+    <div class="flex-container">
+        <div class="flex-items">
+            <button id="increment-btn" onclick="increment()">+ Count</button>
+            <button id="reduction-btn" onclick="reduction()">- Count</button>
+            <button id="save-btn" onclick="save()">Save</button>
+            <button id="reset-btn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+        <p id="save-el">Previous Entires: </p>
+        
+    <p>Made with ❤️ by Snozzi</p>
     <script src="script.js"></script>
 </body>
 </html>

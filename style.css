@@ -1,36 +1,71 @@
 body {
     text-align: center;
+    background-color: #F7F1E5;
+    font-family: "Poppins", sans-serif;
+    height: 100dvh;
 }
 
 h1 {
-    margin: 2rem 0;
+    margin-top: 4rem;
 }
 
 h2 {
     font-size: 50px;
     margin-top: 0;
-    margin-bottom: 3rem;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0rem;
 }
 
 button {
     border: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: white;
+    color: #444444;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1)
 }
 
 #increment-btn {
-    background: darkred;
+    background: #BCEBCB;
+}
+
+#increment-btn:hover {
+    background-color: #A1D6B8;
+}
+
+#reduction-btn {
+    background-color: #A7C7E7;
+}
+
+#reduction-btn:hover {
+    background-color: #8BB8DA;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #FFD7A8;
+}
+
+#save-btn:hover {
+    background-color: #FFCA91;
 }
 
 #reset-btn {
-    background-color: orange;
+    background-color: #F7B2AD;
+}
+
+#reset-btn:hover {
+    background-color: #EF9F99;
 }
